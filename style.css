@@ -1,0 +1,81 @@
+.parkinsans-font{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    margin: 0;
+    font-family: 'Parkinsans';
+    background: #F0EAD6;
+}
+h3, h5, h6{
+    font-weight: 300;
+}
+
+iframe{
+    margin: 1em 0em 1em 0em;
+}
+
+.first-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.first-part-text{
+    width: 40%;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-part{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.second-part-content{
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px){
+    .first-part-text{
+        width: 80%;
+    }
+    .second-part-content{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .first-part-text{
+        width: 70%;
+    }
+    .second-part-content{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .first-part-text{
+        width: 50%;
+    }
+    .second-part-content{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .first-part-text{
+        width: 40%;
+    }
+    .second-part-content{
+        width: 40%;
+    }
+}
