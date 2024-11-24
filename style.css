@@ -48,6 +48,8 @@ iframe{
     .first-part-text{
         width: 80%;
     }
+    
+    
     .second-part-content{
         width: 80%;
     }
@@ -57,6 +59,15 @@ iframe{
     .first-part-text{
         width: 70%;
     }
+    h1{
+        font-size: 4.5em;
+    }
+    h3{
+        font-size: 2em;
+    }
+    h5, h6{
+        font-size: 1em;
+    }
     .second-part-content{
         width: 70%;
     }
@@ -64,18 +75,18 @@ iframe{
 
 @media only screen and (min-width: 992px){
     .first-part-text{
-        width: 50%;
+        width: 60%;
     }
     .second-part-content{
-        width: 50%;
+        width: 60%;
     }
 }
 
 @media only screen and (min-width: 1200px){
     .first-part-text{
-        width: 40%;
+        width: 50%;
     }
     .second-part-content{
-        width: 40%;
+        width: 50%;
     }
 }
